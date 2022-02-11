@@ -104,3 +104,4 @@ def display_links(none):
 if __name__ == '__main__':
     serve(server, port=8050)
     #app.run_server(debug=True)
+    
