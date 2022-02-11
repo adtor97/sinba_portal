@@ -305,7 +305,18 @@ H5{
     top: -5px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
+
+  body .container{
+    width: 95%;
+    min-width: 95%;
+    max-width: 95%;
+  }
+
+  div#_dash-app-content, div#page-content{
+      min-width: 95%;
+    }
+
   .home-col-link{
     min-width:100% !important;
     margin-top: 5px;
@@ -399,6 +410,29 @@ H5{
 
 .form-div .form-input-div .form-label{
   font-size:14px;
+}
+
+.inputs-row{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+}
+
+.inputs-row-row{
+  padding: 5px;
+  border: solid;
+  border-width: 1px;
+  border-color: gray;
+  border-radius: 15px;
+  background-color: #e83d80;
+  margin-bottom: 50px;
+}
+
+.input-col{
+    min-width: 200px;
+    flex: 100;
+    margin:10px;
 }
 
 </style>
