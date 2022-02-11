@@ -45,7 +45,7 @@ def serve_layout():
                                             html.H1(
                                                     html.P(
                                                             [
-                                                            "¡Hola! Hemos creado este portal para empezar a imaginar juntos los primeros pases de Sinba hacia la transformación digital.",  html.Br(), html.Br(),
+                                                            "¡Hola! Hemos creado este portal para empezar a imaginar juntos los primeros pasos de Sinba hacia la transformación digital.",  html.Br(), html.Br(),
                                                             "Si te interesa trabajar con nosotros, por favor deja tus datos en el siguiente formulario."
                                                             ]
                                                     )

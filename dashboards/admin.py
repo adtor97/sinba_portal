@@ -22,7 +22,7 @@ def serve_layout():
                                             , dbc.Col(dbc.Input(type="text", id="admin-create-user-username", placeholder="Correo", className="admin-username-input"), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
                                             , dbc.Col(dbc.Input(type="password", id="admin-create-user-password", placeholder="Contraseña", className="admin-password-input"), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
                                             , dbc.Col(utils.dropdown(id="admin-dropdown-role", value=None, options=options_role_dropdown, placeholder="Rol"), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
-                                            , dbc.Col(utils.dropdown(id="admin-dropdown-view", options=[{"value":"Admin", "label":"admin"}, {"value":"procesamiento1", "label":"Procesamiento 1"}], multi=True, placeholder="Vistas"), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
+                                            , dbc.Col(utils.dropdown(id="admin-dropdown-view", options=[{"value":"admin", "label":"Admin"}, {"value":"procesamiento1", "label":"Procesamiento 1"}], multi=True, placeholder="Vistas"), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
                                             , dbc.Col(html.Button("Crear usuario", id="btn-admin-create-user", n_clicks=0), width=3, style={"marginTop":"2.5px", "marginBottom":"2.5px"}, className="input-col")
                                             ]
                                         )]
